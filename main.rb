@@ -1,2 +1,4 @@
-require_relative("lib/board")
-require_relative("lib/player")
+require_relative('lib/board')
+
+b = Board.new
+b.start_game
